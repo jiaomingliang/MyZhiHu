@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/profile"
+                android:id="@+id/answerer_profile" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answerer_nickname"
+                android:text="石文俊"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answerer_signature"
+                android:text="学婊，西施女神，不卖豆腐只卖笑"
+                android:textSize="10dp"
+                android:textColor="#757575"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_content"
+        android:text="        谢邀。\n        作为一个学挖掘机的女孩，人们见了我，总是不禁要问：“学挖掘机，到底哪家强？”\n        而我只祈求，祈求让人类定义的答案都随风而逝，因为每一台挖掘机的心里，都有一所蓝翔。\n        王家卫说，所有的不期而遇，都是久别重逢；
+        佛家云，前世的五百次回眸才换来今生的擦肩而过；而每一台挖掘机的今生今世都在默默进行如是的作业：世间已得双全法，不负蓝翔不负坑。\n        所以，请不要，不要再问我，不要再问我我的技术从哪里来，我的母校在蓝翔；不要再问我挖掘机技术哪家强，因为每一台挖掘机的心里，都有一座城池，叫蓝翔。"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#424242"
+        android:textSize="16dp"
+        android:lineSpacingExtra="6dp"/>
+
+</LinearLayout>

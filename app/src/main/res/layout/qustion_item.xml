@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/profile"
+        android:id="@+id/user_profile"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:text="学挖掘机到底哪家强"
+            android:textColor="#212121"
+            android:id="@+id/question_title"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="已解决"
+                    android:textColor="#e0f7fa"
+                    android:textSize="7dp"
+                    android:background="#00bcd4"
+                    android:id="@+id/question_status"
+                    android:padding="1dp"/>
+            </LinearLayout>
+                </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:maxLines="2"
+            android:id="@+id/question_answer"
+            android:text="谢邀。作为一个学挖掘机的女孩，人们见了我总是不禁要问：学挖掘机，到底哪家强？而我只祈求，让人类定义的答案都随风而逝，因为每一台挖掘机的心里，都有一所蓝翔"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

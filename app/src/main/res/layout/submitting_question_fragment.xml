@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/submitting_question_title"
+        android:layout_marginLeft="15dp"
+        android:textSize="14dp"
+        android:background="@null"
+        android:hint="简要描述您的问题"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#009688"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/submitting_question_add"
+        android:layout_marginLeft="15dp"
+        android:textSize="14dp"
+        android:background="@null"
+        android:hint="添加更多描述"
+        />
+</LinearLayout>
